@@ -1,0 +1,1 @@
+<template><div><input v-model="city"/><button @click="load">Search</button></div></template><script setup>import { ref } from 'vue';const city=ref('');const load=()=>{};</script>
