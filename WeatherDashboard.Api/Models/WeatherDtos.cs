@@ -1,0 +1,1 @@
+namespace WeatherDashboard.Api.Models;public record CurrentWeatherDto(string City,double Temp,double Humidity);public record DailyForecastDto(string Date,double Min,double Max);public record ForecastDto(string City,IEnumerable<DailyForecastDto> Days);
