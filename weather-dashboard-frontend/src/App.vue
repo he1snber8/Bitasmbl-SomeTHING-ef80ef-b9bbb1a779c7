@@ -1,0 +1,1 @@
+<template><div><h1>Weather Dashboard</h1><DashboardView/></div></template><script setup>import DashboardView from './views/DashboardView.vue';</script>
