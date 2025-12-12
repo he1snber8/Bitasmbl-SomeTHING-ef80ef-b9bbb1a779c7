@@ -1,0 +1,1 @@
+using System.Net.Http;using System.Threading.Tasks;namespace WeatherDashboard.Api.Services;public class WeatherProxyService{readonly HttpClient _http;public WeatherProxyService(HttpClient http){_http=http;}public Task<object?> GetCurrentAsync(string city)=>Task.FromResult<object?>(null);}
