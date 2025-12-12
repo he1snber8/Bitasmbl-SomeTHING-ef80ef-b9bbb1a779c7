@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  api:
+    build: ./WeatherDashboard.Api
+  fastapi:
+    build: ./weather_service
+  frontend:
+    build: ./weather-dashboard-frontend
